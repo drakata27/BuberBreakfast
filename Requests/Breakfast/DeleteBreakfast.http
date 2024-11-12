@@ -1,5 +1,5 @@
 ### DELETE request to example server
-@id=00000000-0000-0000-0000-000000000000
+@id=4a4b3424-51c7-4646-aac3-05ead7b24e99
 DELETE http://localhost:5231/breakfasts/{{id}}
 
 ###
