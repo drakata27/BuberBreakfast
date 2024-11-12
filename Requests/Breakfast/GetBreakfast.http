@@ -1,0 +1,6 @@
+### GET request to example server
+@id=1a5fad18-d82a-4923-af26-dd19f1dfdb17
+
+GET http://localhost:5231/breakfasts/{{id}}
+
+###

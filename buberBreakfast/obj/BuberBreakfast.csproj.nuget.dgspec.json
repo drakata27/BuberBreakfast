@@ -1,27 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "/Users/aleksandardrakaliyski/Documents/Projects/buberBreakfast/buberBreakfast/BuberBreakfast.csproj": {}
+    "C:\\Users\\draka\\Documents\\Programming\\BuberBreakfast\\buberBreakfast\\BuberBreakfast.csproj": {}
   },
   "projects": {
-    "/Users/aleksandardrakaliyski/Documents/Projects/buberBreakfast/buberBreakfast/BuberBreakfast.csproj": {
+    "C:\\Users\\draka\\Documents\\Programming\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/aleksandardrakaliyski/Documents/Projects/buberBreakfast/buberBreakfast/BuberBreakfast.csproj",
-        "projectName": "BuberBreakfast",
-        "projectPath": "/Users/aleksandardrakaliyski/Documents/Projects/buberBreakfast/buberBreakfast/BuberBreakfast.csproj",
-        "packagesPath": "/Users/aleksandardrakaliyski/.nuget/packages/",
-        "outputPath": "/Users/aleksandardrakaliyski/Documents/Projects/buberBreakfast/buberBreakfast/obj/",
+        "projectUniqueName": "C:\\Users\\draka\\Documents\\Programming\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
+        "projectName": "BuberBreakfast.Contracts",
+        "projectPath": "C:\\Users\\draka\\Documents\\Programming\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
+        "packagesPath": "C:\\Users\\draka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\draka\\Documents\\Programming\\BuberBreakfast\\BuberBreakfast.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/aleksandardrakaliyski/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\draka\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
@@ -42,16 +39,65 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.10, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
             }
           },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\draka\\Documents\\Programming\\BuberBreakfast\\buberBreakfast\\BuberBreakfast.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\draka\\Documents\\Programming\\BuberBreakfast\\buberBreakfast\\BuberBreakfast.csproj",
+        "projectName": "BuberBreakfast",
+        "projectPath": "C:\\Users\\draka\\Documents\\Programming\\BuberBreakfast\\buberBreakfast\\BuberBreakfast.csproj",
+        "packagesPath": "C:\\Users\\draka\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\draka\\Documents\\Programming\\BuberBreakfast\\buberBreakfast\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\draka\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\draka\\Documents\\Programming\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj": {
+                "projectPath": "C:\\Users\\draka\\Documents\\Programming\\BuberBreakfast\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -71,7 +117,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
